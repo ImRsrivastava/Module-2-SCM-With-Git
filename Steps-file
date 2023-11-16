@@ -1,0 +1,24 @@
+Step 1: Initialize the git on the project.
+    git init
+
+Step 2: Add project code to the local repository by using dot (.) .
+    git add .
+
+Step 3: Committed the code to the local repository 
+    git commit -am "Initial code for DevOps certification training masters program - Version control with Git - Assignment - Module-2-SCM-With-Git"
+
+Step 4: Create new feature branch.
+    git branch < feature_branch_name >
+    git branch feature_branch
+
+Step 5: Checkout to the feature branch.
+    git checkout feature_branch
+
+Step 6: Merge feature branch with master branch
+    git merge master
+
+Step 7: Create remote repository.
+    git remote add origin https://github.com/ImRsrivastava/Module-2-SCM-With-Git.git
+
+Step 8: Push the code to the remote repository.
+    git push origin feature_branch
